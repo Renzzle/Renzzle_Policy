@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/renzzle.css' | relative_url }}">
+  {% if page.ko_url or page.en_url %}
+  <script>
+    // The browser's first language decides; ?lang= only counts when that language is neither Korean nor English
+    (function () {
+      var first = ((navigator.languages && navigator.languages[0]) || navigator.language || '').toLowerCase().slice(0, 2);
+      var param = new URLSearchParams(location.search).get('lang');
+      var target = first === 'ko' || first === 'en' ? first : param;
+      {% if page.ko_url %}
+      if (target === 'ko') location.replace('{{ page.ko_url | relative_url }}' + location.search);
+      {% else %}
+      if (target === 'en') location.replace('{{ page.en_url | relative_url }}' + location.search);
+      {% endif %}
+    })();
+  </script>
+  {% endif %}
+</head>
+<body>
+  <main class="page">
+    <article class="doc">
+      {{ content }}
+    </article>
+    <footer class="footer">© 2026 Studio Isoo. All rights reserved.</footer>
+  </main>
+</body>
+</html>

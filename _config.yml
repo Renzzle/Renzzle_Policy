@@ -1,0 +1,26 @@
+title: Renzzle
+lang: en
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: "terms-of-use.md"
+    values:
+      ko_url: /terms-of-use-ko.html
+  - scope:
+      path: "privacy-policy.md"
+    values:
+      ko_url: /privacy-policy-ko.html
+  - scope:
+      path: "terms-of-use-ko.md"
+    values:
+      lang: ko
+      en_url: /terms-of-use.html
+  - scope:
+      path: "privacy-policy-ko.md"
+    values:
+      lang: ko
+      en_url: /privacy-policy.html
