@@ -6,10 +6,13 @@ Studio Isoo, represented by Sang-Min Kang ("we"), handles personal information i
 
 ## 1. What we collect and why
 
-- **Sign-up (required)**: email address, password, nickname
+- **Sign-up (required)**: email address, password (for email sign-up), nickname
   - Used to sign you in, send verification codes and manage your account.
   - Your nickname is shown to other users in rankings and on puzzles you post.
   - Your password is stored as a one-way hash.
+- **Google or Apple sign-in**: your Google or Apple account identifier and email address
+  - Received from Google or Apple when you sign up, sign in or link that account, and used to sign you in and manage your account.
+  - If you choose Hide My Email with Apple, we receive the relay address Apple provides instead.
 - **Collected automatically**: device identifier, records of how you use the Services
   - Used to prevent duplicate accounts and abuse, and to run the Services and fix problems.
 - **Purchases**: store order and transaction details
@@ -25,7 +28,7 @@ For users in the EEA and UK, our legal bases are:
 
 ## 2. How long we keep it
 
-- We keep account information until you delete your account, and erase it as soon as you do. Puzzles and usage records that remain afterwards can no longer be linked to you.
+- We keep account information until you delete your account, and erase it as soon as you do. If you unlink a Google or Apple account, we erase its sign-in details right away. Puzzles and usage records that remain afterwards can no longer be linked to you.
 - The Enforcement Decree of the Korean E-Commerce Act (Article 6) requires us to keep some records for a set period, after which we delete them:
   - purchase records: 5 years
   - records of complaints and disputes (support emails): 3 years
@@ -48,7 +51,7 @@ For users in the EEA and UK, our legal bases are:
 ## 4. Your rights
 
 - You can ask to see, correct or delete your information, or ask us to stop using it.
-- You can change your nickname and password, and delete your account (**Settings → Delete Account**), in the app. For anything else, email renzzle.official@gmail.com from your account's email address.
+- You can change your nickname and password, unlink a Google or Apple account, and delete your account (**Settings → Delete Account**), in the app. For anything else, email renzzle.official@gmail.com from your account's email address.
 - We don't ask for your age, and minors may use the Services. A parent or guardian can also make these requests.
 - You can complain to a data protection authority, such as Korea's Personal Information Protection Commission or the authority where you live.
 
