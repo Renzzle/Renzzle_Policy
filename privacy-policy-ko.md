@@ -1,6 +1,6 @@
 # 개인정보 처리방침
 
-**시행일:** 2026년 11월 9일
+**시행일:** 2026년 11월 16일
 
 스튜디오 이수(대표 강상민, 이하 "운영자")는 Renzzle 앱 및 계정(이하 "서비스")과 관련하여 다음과 같이 개인정보를 처리합니다.
 
@@ -29,10 +29,10 @@
 ## 3. 개인정보 처리의 위탁 및 국외 이전
 
 - **Oracle(Oracle Cloud Infrastructure)**: 서버 운영 및 이메일 발송(처리 위치: 대한민국 춘천)
-- **Cloudflare, Inc.**(미국, dpo@cloudflare.com)
+- **Amazon Web Services, Inc.**(미국, [개인정보처리방침](https://aws.amazon.com/ko/privacy/))
   - 위탁 업무: 앱과 서버 간 트래픽 전달 및 보호
   - 이전 항목, 시기 및 방법: 서비스 이용 시 IP 주소 및 요청 정보가 네트워크를 통해 전송됩니다.
-  - 보유 기간: Cloudflare의 정책에 따름
+  - 보유 기간: Amazon Web Services의 정책에 따름
   - 거부 방법 및 효과: 이전을 거부하는 경우 서비스를 이용할 수 없습니다.
 - **Google LLC**(미국, [개인정보처리방침](https://policies.google.com/privacy?hl=ko))
   - 이전 항목: IP 주소, 광고 ID 등 기기 식별값, 앱 및 광고 이용 정보

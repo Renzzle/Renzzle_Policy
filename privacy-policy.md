@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Effective date:** November 9, 2026
+**Effective date:** November 16, 2026
 
 Studio Isoo, represented by Sang-Min Kang ("we"), handles personal information in the Renzzle app and account (the "Services") as follows.
 
@@ -34,7 +34,7 @@ For users in the EEA and UK, our legal bases are:
 ## 3. Service providers and international transfers
 
 - **Oracle (Oracle Cloud Infrastructure)** runs our servers and sends our emails, in the Republic of Korea (Chuncheon).
-- **Cloudflare, Inc.** (USA; dpo@cloudflare.com)
+- **Amazon Web Services, Inc.** (USA; [AWS Privacy Notice](https://aws.amazon.com/privacy/))
   - Carries and protects traffic between the app and our server.
   - Your IP address and requests go through it over the network whenever you use the Services, and it keeps them under its own policies.
   - The Services can't be used without it.
@@ -42,7 +42,7 @@ For users in the EEA and UK, our legal bases are:
   - If you haven't bought ad removal, the ad SDK in the app (AdMob) sends information over the network whenever an ad loads: your IP address, device identifiers such as the advertising ID, and how you interact with the app and ads.
   - Google uses it to show and measure ads and prevent fraud, and keeps it under its own policies. We request non-personalized ads only.
   - To refuse, buy ad removal, or reset or delete your advertising ID in your device settings.
-- The transfers to Cloudflare and Google are needed to provide the Services under our contract with you. This policy discloses them as Article 28-8(1)(3) of the Korean Personal Information Protection Act requires.
+- The transfers to Amazon Web Services and Google are needed to provide the Services under our contract with you. This policy discloses them as Article 28-8(1)(3) of the Korean Personal Information Protection Act requires.
 - We don't share personal information with anyone else, unless the law requires it.
 
 ## 4. Your rights
